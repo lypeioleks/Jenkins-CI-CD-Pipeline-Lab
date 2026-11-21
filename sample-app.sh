@@ -1,4 +1,7 @@
 #!/bin/bash
+set -e
+rm -rf tempdir
+
 
 mkdir tempdir
 mkdir tempdir/templates
